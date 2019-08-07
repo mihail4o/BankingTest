@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" >
+    <test name="Suite Test" >
+        <classes>
+            <class name="TC_Class1">
+                <methods>
+                    <include name="tc01LaunchURL"></include>
+                    <include name="tc03EnterCredentials"></include>
+                    <include name="tc05VerifyHyperLinks"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
